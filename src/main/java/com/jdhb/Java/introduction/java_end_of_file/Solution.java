@@ -12,5 +12,6 @@ public class Solution {
         while(scan.hasNext()){
             System.out.printf("%d %s%n", ++i, scan.nextLine());
         }
+        scan.close();
     }
 }
